@@ -1,0 +1,4 @@
+Name: Brendan A. Forbes
+Email: forbeb@rpi.edu
+github account: forbeb
+slack handle: bafornes19 
