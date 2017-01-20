@@ -12,3 +12,5 @@ E3. <img src = "images/regex.png">
 
 F2. <img src = "images/blocky.png">
 
+G. There is a game on investopedia where you receive "$100,000" and manage a stock portfolio. I'd like to use javascript to read data and sell and buy at the correct times
+
