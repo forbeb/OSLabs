@@ -1,4 +1,4 @@
-Name: Brendan A. Forbes
+##Name: Brendan A. Forbes
 
 Email: forbeb@rpi.edu
 
@@ -8,4 +8,6 @@ slack handle: baforbes19
 
 photo of forbeb: 
 
-![forbeb](images/patriot.jpg = 250x)
+![forbeb](images/patriot.jpg)
+
+<img src = "https://github.com/forbeb/images/patriot.jpg" wdith = "100">
