@@ -8,5 +8,7 @@ C3. I was reassured that copyright law in this country promotes corruption at th
 
 E2. <img src = "images/lab1.png">
 
+E3. <img src = "images/regex.png">
+
 F2. <img src = "images/blocky.png">
 
