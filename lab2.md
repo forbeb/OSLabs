@@ -12,10 +12,10 @@
 
 10.
 
-Website										License Present		License
+Website                                   License Present		License
 
-https://github.com/adriancollado/solum			Yes				MIT
-https://github.com/jzblee/tally					Yes				MIT
-https://github.com/mmetro/WeirdSideofYouTube	Yes				MIT
-https://github.com/rcos/observatory3			Yes				MIT
-https://github.com/Stashmatic/ARAS				Yes				MIT	
+https://github.com/adriancollado/solum          Yes				MIT
+https://github.com/jzblee/tally                 Yes				MIT
+https://github.com/mmetro/WeirdSideofYouTube    Yes				MIT
+https://github.com/rcos/observatory3            Yes				MIT
+https://github.com/Stashmatic/ARAS              Yes				MIT	
