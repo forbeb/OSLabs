@@ -8,7 +8,7 @@
 
 7.) Apache is best for developers because they may sublicense. Companies on the other hand would prefer GPL or LGPL because all modifications must be noted and the original must be included. Apache is better for the common good because its is better for developers. What is better for developers is better for the common good  because more developers will make changes and improve the software for everyone
 
-9.) I'd like to make a project that assists automatically uses Investopedia to make "money" in their games. The users would be anyone that wanted to win a game on investopedia. Potentially it could be used to learn about stocks and how to make better investment decisions. I'd use the MIT license because its easy and simple.
+9.) I'd like to make a project that assists automatically uses Investopedia to make "money" in their games. The users would be anyone that wanted to win a game on investopedia. Potentially it colud be used to learn about stocks and how to make better investment decisions. I'd use the MIT license because its easy and simple.
 
 10.
 
