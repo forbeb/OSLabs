@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/users/forbeb/Desktop/CMAKE2/Step3/TutorialConfig.h
+
+/cygdrive/c/users/forbeb/Desktop/CMAKE2/Step3/tutorial.cxx
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+TutorialConfig.h
+/cygdrive/c/users/forbeb/Desktop/CMAKE2/Step3/TutorialConfig.h
+MathFunctions.h
+/cygdrive/c/users/forbeb/Desktop/CMAKE2/Step3/MathFunctions.h
+
+MathFunctions.h
+
