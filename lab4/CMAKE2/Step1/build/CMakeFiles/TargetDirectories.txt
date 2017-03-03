@@ -1,3 +1,0 @@
-/cygdrive/c/users/forbeb/desktop/CMAKE/build/CMakeFiles/edit_cache.dir
-/cygdrive/c/users/forbeb/desktop/CMAKE/build/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/users/forbeb/desktop/CMAKE/build/CMakeFiles/Tutorial.dir
