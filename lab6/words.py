@@ -32,12 +32,44 @@ def generate_graph(words):
     from string import ascii_lowercase as lowercase
     G = nx.Graph(name="words")
     lookup = dict((c,lowercase.index(c)) for c in lowercase)
+
+
     def edit_distance_one(word):
-        for i in range(len(word)):
-            left, c, right = word[0:i], word[i], word[i+1:]
-            j = lookup[c] # lowercase.index(c)
-            for cc in lowercase[j+1:]:
-                yield left + cc + right
+
+        list0=[]
+
+        for i in range(5):
+            list1=[word[0], word[1], word[2], word[3], word[4]]
+            new = list1[i]
+            list1.remove(new)
+
+            for j in range(4):
+                list2=list(list1)
+                new1 = new + list2[j]
+                list2.remove(list2[j])
+
+                for k in range(3):
+                    list3=list(list2)
+                    new2 = new1 + list3[k]
+                    list3.remove(list3[k])
+
+                    for l in range(2):
+                        list4=list(list3)
+                        new3 = new2 + list4[l]
+                        list4.remove(list4[l])
+
+                        for m in range(1):
+                            new4 = new3 + list4[m]
+                            list0.append(new4)
+
+        for k in range(len(list0)):
+            for i in range(len(word)):
+                left, c, right = list0[k][0:i], list0[k][i], list0[k][i+1:]
+                j = lookup[c] # lowercase.index(c)
+                for cc in lowercase[j+1:]:
+                    yield left + cc + right
+
+
     candgen = ((word, cand) for word in sorted(words)
                for cand in edit_distance_one(word) if cand in words)
     G.add_nodes_from(words)

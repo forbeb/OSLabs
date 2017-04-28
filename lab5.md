@@ -26,6 +26,8 @@ https://www.youtube.com/watch?v=tIyv-goj6rc
 
 274 lines of code
 
+Leader: Brody Berson
+
 First  commit: September 3, 2015
 
 Latest commit: April 30, 2016
@@ -38,6 +40,8 @@ Pokedex API:
 https://www.youtube.com/watch?v=-jVygJkb12M
 
 3 Contributors
+
+Leader: Aesa Kamar
 
 785318 lines of code
 
@@ -54,6 +58,8 @@ https://www.youtube.com/watch?v=3lJvaXkHO4I
 
 3 Contributors
 
+Leader: Matthew Zang
+
 186350 lines of code
 
 First  commit: September 3, 2015
@@ -69,6 +75,8 @@ https://www.youtube.com/watch?v=0ta_d_hvyq0
 
 153 Contributors
 
+Leader: Dain Sundstrom
+
 39812 lines of code
 
 First  commit: September 3, 2015
@@ -83,6 +91,8 @@ QuickCast:
 https://www.youtube.com/watch?v=LFfN0dUBem8
 
 6 Contributors
+
+Leader: Farkinator
 
 6804 lines of code
 

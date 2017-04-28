@@ -71,17 +71,17 @@ def words_graph():
     G = Graph(name="words")
     sys.stderr.write("Loading words_dat.txt: ")
     for line in fh.readlines():
-        if line.startswith("*"):
+        if line[0]=='*':
             continue
         w=line[0:5]
         G.add_node(w)
     nwords=number_of_nodes(G)
     words=G.nodes()
-    for k in xrange(0,nwords):
+    for k in range(0,nwords):
         if (k%100==0):
             sys.stderr.softspace=0
             sys.stderr.write(".")
-        for l in xrange(k+1,nwords):
+        for l in range(k+1,nwords):
             if _wdist(words[k],words[l]) == 1:
                 G.add_edge(words[k],words[l])
     return G
@@ -90,21 +90,21 @@ def words_graph():
 if __name__ == '__main__':
     from networkx import *
     G=words_graph()
-    print "Loaded words_dat.txt containing 5757 five-letter English words."
-    print "Two words are connected if they differ in one letter."
-    print "graph has %d nodes with %d edges"\
-          %(number_of_nodes(G),number_of_edges(G))
+    print ("Loaded words_dat.txt containing 5757 five-letter English words.")
+    print ("Two words are connected if they differ in one letter.")
+    print ("graph has %d nodes with %d edges"\
+          %(number_of_nodes(G),number_of_edges(G)))
 
     sp=shortest_path(G, 'chaos', 'order')
-    print "shortest path between 'chaos' and 'order' is:\n", sp
+    print ("shortest path between 'chaos' and 'order' is:\n", sp)
 
     sp=shortest_path(G, 'nodes', 'graph')
-    print "shortest path between 'nodes' and 'graph' is:\n", sp
+    print ("shortest path between 'nodes' and 'graph' is:\n", sp)
 
     sp=shortest_path(G, 'moron', 'smart')
-    print "shortest path between 'moron' and 'smart' is:\n", sp
+    print ("shortest path between 'moron' and 'smart' is:\n", sp)
 
     sp=shortest_path(G, 'pound', 'marks')
-    print "shortest path between 'pound' and 'marks' is:\n", sp
+    print ("shortest path between 'pound' and 'marks' is:\n", sp)
 
-    print number_connected_components(G),"connected components"
+    print (number_connected_components(G),"connected components")

@@ -34,8 +34,22 @@ def convertH3(line):
   return line
 
 def convertBlockquote(line):
-  line = re.sub(r'>(.*\n.*)', r'<blockquote>\1</blockquote>', line)
-  return line
+
+  new = ''
+
+  if line[0] == '>':
+    new = '<blockquote>'
+    for i in range(2,len(line)):
+      new = new + line[i];
+
+    new = new + '\n</blockquote>'
+
+    return new;
+
+  else:
+    return line;
+  #line = re.sub(r'>(.*\n.*)', r'<blockquote>\1</blockquote>', line)
+  #return line
 
 for line in fileinput.input():
   line = line.rstrip() 
